@@ -1,0 +1,8 @@
+---
+layout: page1
+title: Blog
+priority: 0.3
+pageOrder: 5
+---
+
+<%- @partial('abstract-list', {collection: @getCollection('posts')}) %>

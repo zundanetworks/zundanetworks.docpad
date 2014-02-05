@@ -1,0 +1,111 @@
+/* Effective stylesheet produced by snapshot save */
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl, dt, dd, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td, form, fieldset, embed, object, applet {
+ margin: 0px;
+ padding: 0px;
+ border: 0px none;
+}
+
+body {
+ font-size: 100%;
+ font-family: Ubuntu,sans-serif;
+ color: rgb(0, 0, 0);
+ background: none repeat scroll 0% 0% rgba(255, 255, 255, 0);
+}
+
+a {
+ color: rgba(0, 0, 204);
+}
+
+a:active {
+ color: rgb(255, 0, 0);
+}
+
+a:visited {
+ color: rgb(85, 26, 139);
+}
+
+body {
+ background-color: rgba(0,0,0,0);
+}
+
+body a:link {
+ font-family: Ubuntu,sans-serif;
+ font-size: 13px;
+ color: rgb(17, 85, 204);
+ text-decoration: none;
+}
+
+body a:hover {
+ text-decoration: underline;
+}
+
+body a:active {
+ color: rgb(209, 72, 54);
+}
+
+.ss-resp-card {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #CCCCCC;
+    font-family: Ubuntu,sans-serif;
+    font-weight: lighter;
+    padding: 1em;
+    color: #333333;
+}
+
+.ss-logo {
+ height: 23px;
+ width: 104px;
+ margin-bottom: 0.1em;
+}
+
+a.ss-logo-link:link, a.ss-logo-link:visited {
+  float: right;
+}
+
+.ss-embedded-form-container {
+ margin: 0;
+}
+.ss-footer {
+    background-color: #FFFFFF;
+    height: 28px;
+    padding: 5px 4px 0;
+    position: relative;
+    width: 99%;
+}
+
+a:link, a:visited {
+ color: rgb(102, 17, 204);
+}
+
+.ss-break {
+ border: 0px none;
+ background-color: rgb(204, 204, 204);
+ height: 1px;
+ margin-bottom: 0.6em;
+ margin-top: 25px;
+}
+
+.ss-custom-resp {
+   font: inherit;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+
+.ss-footer-txt {
+  float: left;
+}
+
+.ss-confirmation {
+   font-weight: bold;
+   margin: 1em 0px;
+   font-size: 16px;
+}
+ .ss-confirmation {
+    visibility: hidden;
+}
+
+.ss-opt-actions {
+ padding: 1em 0px 0.2em;
+ margin-top: 15px;
+}
+

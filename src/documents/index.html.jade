@@ -1,0 +1,92 @@
+--- yaml
+layout: 'default'
+title: 'Conquer ICT ⟶ Improve Living standards'
+---
+.row
+  .span12
+    //Carousel==================================================
+    #myCarousel.carousel.slide
+      ol.carousel-indicators
+        li.active(data-slide-to="0" data-target="#myCarousel")
+        li.n(data-slide-to="1" data-target="#myCarousel")
+        li.n(data-slide-to="2" data-target="#myCarousel")
+      .carousel-inner
+        .item.active
+          .hero-unit.advert
+            .row
+              //h2.page-title Enterprise eMail Server for only K4,200.00
+              .span6
+                a(href="/mail-server")
+                  img(alt="Zunda Networks supported email server" src="/images/zunda-mail.png" style="float: left; width: auto")
+                  div.nomo-price(style="text-decoration: line-through; font-style: italic; font-size: 21px; float: left; color:#333;").
+                    Usual Price : K9,300.00
+              .span6
+                strong Be Smart -> for only K4,200.00 get all this in our enterprise mail server<br>
+                //span What you find in the box
+                ol
+                  li Smart SPAM filtering
+                  li AntiVirus
+                  li Original sender verification
+                  li Virus free Operating System
+                  li 1 Month free Zunda Networks support
+                  li Life time license
+                  li Unlimited email accounts
+                  li Calendar: Organize your time effectively and effortlessly, plan meetings with your colleagues with free/busy information, send meeting requests or book resources.
+                  li Address Book: Manage all your contacts and share them with others using the shared address book.
+                  li Task Management that works, allowing you to manage personal tasks or share them with colleagues to work much more effectively.
+                  li Group mailboxes and public folders can be used for all incoming support or sales emails
+                  //li
+                .slide-action
+                  .pull-right
+                    a.label(href="/mail-server")
+                      i.icon-th.icon-white
+                      | More...
+                  a.btn.btn-warning.btn-large(href="/contact" style="text-align: left; font-size: 20px")
+                    strong Get in touch while offer lasts<br>
+                    span(style="text-align: left; font-size: 17px") sales@zundanetworks.com<br>Tel:+260-961-931568            
+        .item
+          .hero-unit
+            h2.page-title Zunda Networks 
+            span(style="font-style: italic; color: #FF0000") Conquer ICT ⟶ Improve Living standards
+            p: :markdown
+              Zunda Networks is an ICT services outfit specialising in innovative application of “Open Source” and “Open Standards” Compliant ICT technologies to allow business houses and home users to easily carry out their day to day activities. Our products defy vendor lock-in.
+        .item
+          .hero-unit.advert
+            .row
+              .span6
+                a(href="/2014/01/31/customer-dashboard-with-html5-angularjs")
+                  img(alt="Customer Management & Billing System" src="/images/slide/cmbs.png" style="float: left; width: auto")
+              .span6
+                p: :markdown
+                  **Customer Dashboard: Fun with with HTML5, NoSQL, Angurlarjs and D3.js**
+                  
+                  Realtime Single Page Application(SPA) Customer Mangement & Billing System built on HTML5.
+                  
+                  **Features include...**
+                  * A complete listing of all the client records
+                  * Record filtering and sorting *based on any of the enabled filter/sort fields*
+                  * Export to CSV *for use in your popular spreadsheet, whether LibreOffice Calc or MS Excel*
+                  * Import of records from a CSV file
+                  * Add and Edit forms
+                  * Input data validation
+                  * Persistent store to NoSQL backend of your choice. Currently, browser localstore is used but there is nothing stopping any to use whatever backend. We will be adding IndexedDB and levelDB
+                  
+                .slide-action
+                  .pull-right
+                    a.label(href="/2014/01/31/customer-dashboard-with-html5-angularjs")
+                      i.icon-th.icon-white
+                      | More...                
+
+      //carousel controls
+      a.left.carousel-control(href="#myCarousel" data-slide="prev")&lsaquo;
+      a.right.carousel-control(href="#myCarousel" data-slide="next")&rsaquo;
+
+
+// Example row of columns.
+.row
+  .span12
+    .hero-unit
+      h6.page-title Zunda Networks 
+      span(style="font-style: italic; color: #FF0000") Conquer ICT ⟶ Improve Living standards
+      p: :markdown
+        Zunda Networks is an ICT services outfit specialising in innovative application of “Open Source” and “Open Standards” Compliant ICT technologies to allow business houses and home users to easily carry out their day to day activities. Our products defy vendor lock-in.
