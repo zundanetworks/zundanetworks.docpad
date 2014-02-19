@@ -6,8 +6,10 @@ layout: default
 .container
   !=partial('post', {title: document.title, url: document.url, tags: document.tags, date: document.date, individualPost: true })
   //!= content
+  if document.comments && site.disqusShortName
+    !=partial('disqus')
 
-footer
+.related
   if document.relatedDocuments && document.relatedDocuments.length
     section#related
       h3 Related Posts

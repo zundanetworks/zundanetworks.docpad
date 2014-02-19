@@ -30,7 +30,7 @@ docpadConfig = {
     # Specify some site properties
     site:
       # The production url of our website
-      url: "http://zundanetworks.com"
+      url: "http://www.zundanetworks.com"
 
       # Here are some old site urls that you would like to redirect from
       oldUrls: [
@@ -50,9 +50,7 @@ docpadConfig = {
 
       # The website keywords (for SEO) separated by commas
       keywords: """
-        CMS, nosql, website development, document management, search engine appliance, nodejs, angularjs, mobile first, database,
-        email server, web server, ubuntu linux, linux, networking, zunda, networks, mobile, apps, monogdb, couchdb, pouchdb,
-        indexeddb, javascript, php, python, css, html5, design, ux, gis, geospacial, map, sailsjs, zambia, it solutions, social, business, software, dynamic website, 
+        CMS, nosql, website development, document management, search engine appliance, nodejs, angularjs, mobile first, database, email server, email, web server, ubuntu linux, linux, networking, zunda networks, zunda, networks, mobile, apps, monogdb, couchdb, pouchdb, indexeddb, javascript, php, python, css, html5, design, ux, gis, geospacial, map, sailsjs, zambia, it solutions, social, business, software, dynamic website, CRM, NoCMS, D3, D3.js, visualization, virtualisation
         """
 
       # The website author's name
@@ -65,6 +63,8 @@ docpadConfig = {
       #copyright: "Copyright © 2014 Zunda Networks"
       copyright: "Copyright &copy; 2014 Zunda Networks"
 
+      #Kwabi: 2014/02/18 13:03:49 Discus.com settings
+      disqusShortName: 'zunda'
 
     # Helper Functions
     # ----------------
@@ -89,7 +89,6 @@ docpadConfig = {
     getPreparedKeywords: ->
       # Merge the document keywords with the site keywords
       @site.keywords.concat(@document.keywords or []).join(', ')
-
 
     #Kwabi: 2014/01/15 12:47:00 moment helper function added
     # moment date library for parsing, validating, manipulating, and formatting dates.
