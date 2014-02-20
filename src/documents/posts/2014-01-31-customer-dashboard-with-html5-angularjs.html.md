@@ -85,6 +85,6 @@ As said, this is not a finished product, development continues and will keep eve
 
 Get the code from our github repo:
 
-<https://github.com/zunda/cmbs-html5>
+<https://github.com/zundanetworks/cmbs-html5.git>
 
 Your questions and comments are welcome.
